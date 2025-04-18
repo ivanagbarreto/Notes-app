@@ -6,6 +6,7 @@
 }
 button{
     font-family:  "Arapey", serif;
+    font-size: 10px;
 }
 .container{
     width: 100%;
@@ -23,10 +24,10 @@ button{
     font-weight: 600;
 }
 .container h1 img{
-    width: 60px;
+    width: 40px;
 }
 .container button img{
-    width: 25px;
+    width: 15px;
     margin-right: 8px;
 }
 .container button{
@@ -34,11 +35,29 @@ button{
     align-items: center;
     background-color: #6D0D32;
     color: #fff;
-    font-size: 16px;
     outline: 0;
     border: 0;
     border-radius: 40px;
-    padding: 15px 25px;
+    padding: 5px 15px;
     margin: 30px 0 20px;
+    cursor: pointer;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+}
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
     cursor: pointer;
 }
